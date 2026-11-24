@@ -3,11 +3,14 @@
 Infraestrutura de Software · ADS · CESAR School · 2026.2
 
 **Aluno:** Luís Felipe Carneiro da Silva
+
 **Caminho escolhido:** **A – AWS SAM CLI local** (Python 3.12, sem conta na AWS)
+
 **Vídeo (até 3 min):** (https://youtu.be/dp7sFIO2tmk)
 
+</div> <div align="justify">
 A função `lambda_handler` recebe por HTTP (`POST /guias`) uma requisição de hemocomponentes e devolve a **guia de transporte**. Com ela observei o ciclo de vida do ambiente de execução (cold start e reaproveitamento), a falta de garantia de estado entre chamadas e o limite de tempo de execução.
-
+</div>
 ---
 
 ## 1. Ambiente
@@ -153,7 +156,7 @@ O tempo máximo de uma execução no Lambda é de **15 minutos (900 s)**. Para t
 
 ## 8. Vídeo
 
-Gravação de tela (até 3 min) mostrando a invocação com evento, a chamada por HTTP e o erro de tempo limite: (https://youtu.be/dp7sFIO2tmk)
+Gravação de tela mostrando a invocação com evento, a chamada por HTTP e o erro de tempo limite: (https://youtu.be/dp7sFIO2tmk)
 
 ## 9. Uso de IA
 
