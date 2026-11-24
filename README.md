@@ -2,6 +2,7 @@
 
 # ⚡ Atividade Individual 1 – Serverless
 
+<<<<<<< HEAD
 **Infraestrutura de Software · ADS · CESAR School · 2026.2**
 
 ![AWS SAM](https://img.shields.io/badge/AWS%20SAM%20CLI-1.174.0-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
@@ -21,6 +22,17 @@ A função `lambda_handler` recebe por HTTP (`POST /guias`) uma requisição de 
 
 </div>
 
+=======
+**Aluno:** Luís Felipe Carneiro da Silva
+
+**Caminho escolhido:** **A – AWS SAM CLI local** (Python 3.12, sem conta na AWS)
+
+**Vídeo (até 3 min):** (https://youtu.be/dp7sFIO2tmk)
+
+</div> <div align="justify">
+A função `lambda_handler` recebe por HTTP (`POST /guias`) uma requisição de hemocomponentes e devolve a **guia de transporte**. Com ela observei o ciclo de vida do ambiente de execução (cold start e reaproveitamento), a falta de garantia de estado entre chamadas e o limite de tempo de execução.
+</div>
+>>>>>>> 202c8be992cf13e8d04c9230b1cfdb26d448d684
 ---
 
 ## 🧰 1. Ambiente
@@ -197,7 +209,11 @@ O tempo máximo de uma execução no Lambda é de **15 minutos (900 s)**. Para t
 
 ## 🎥 8. Vídeo
 
+<<<<<<< HEAD
 <div align="justify">
+=======
+Gravação de tela mostrando a invocação com evento, a chamada por HTTP e o erro de tempo limite: (https://youtu.be/dp7sFIO2tmk)
+>>>>>>> 202c8be992cf13e8d04c9230b1cfdb26d448d684
 
 Gravação de tela mostrando a invocação com evento, a chamada por HTTP e o erro de tempo limite: [https://youtu.be/dp7sFIO2tmk](https://youtu.be/dp7sFIO2tmk)
 
@@ -210,7 +226,12 @@ Conforme a PO-CESAR-021:
 <div align="justify">
 
 - **Ferramenta:** Claude (Anthropic).
+<<<<<<< HEAD
 - **Finalidade:** orientação, esqueleto do repositório, diagnóstico de erros de ambiente (Git Bash, Python 3.12, evento em base64, `warm_containers`) e rascunho do README.
 - **Como validei:** rodei todos os comandos no meu computador, conferi os resultados contra os logs, refiz a conta de custo e revisei as respostas.
 
 </div>
+=======
+- **Finalidade:** orientação, esqueleto do repositório, diagnóstico de erros de ambiente (Git Bash, Python 3.12, evento em base64, `warm_containers`) e rascunho README.
+- **Como validei:** rodei todos os comandos no meu computador, conferi os resultados contra os logs, refiz a conta de custo e revisei as respostas.
+>>>>>>> 202c8be992cf13e8d04c9230b1cfdb26d448d684
